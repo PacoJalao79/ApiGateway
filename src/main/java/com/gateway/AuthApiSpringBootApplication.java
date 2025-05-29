@@ -1,13 +1,13 @@
-package com.example.ApiGateway;
+package com.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ApiGatewayApplication {
+public class AuthApiSpringBootApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ApiGatewayApplication.class, args);
+		SpringApplication.run(AuthApiSpringBootApplication.class, args);
 	}
 
 }
